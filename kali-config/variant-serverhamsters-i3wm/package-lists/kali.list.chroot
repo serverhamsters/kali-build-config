@@ -23,25 +23,34 @@ kali-desktop-live
 #kali-desktop-common
 xorg
 i3
-# Change the wallpaper
+
+## i3wm packages
+# feh - Change the wallpaper
+# xbacklight - change brightness
+# conky - system status widgets
+# playerctl - necessary for volume controls
+# arandr - configure multi-monitors
+# rofi - a better dmenu
+# compton - fade effects
 feh
-# required to change the brightness
 xbacklight
 dmenu
 conky
 i3status
-# necessary for volume controls in i3
 playerctl
-# required toconfigure multi-monitors in i3
 arandr
-# a better dmenu
 rofi
-# fading effect
 compton
 
-# Custom packages
+# VM guest additions
 open-vm-tools
+spice-vdagent
+qemu-guest-agent
+
+# Custom packages
 vim
+ipcalc
+postgresql
 #nmap
 #metasploit-framework
 #john
