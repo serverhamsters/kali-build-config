@@ -6,6 +6,7 @@ cache
 chroot
 chroot.packages.install
 chroot.packages.live
+chroot.files
 .mirror
 .stage
 .lock
@@ -14,3 +15,5 @@ config/binary
 config/bootstrap
 config/common
 config/source
+config/
+live-image-*.*
