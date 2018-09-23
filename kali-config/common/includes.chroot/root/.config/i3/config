@@ -12,11 +12,6 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+A kill
 
-# start dmenu
-#bindsym $mod+d exec dmenu_run
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 18"
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -148,6 +143,12 @@ client.focused          $bg-color           $bg-color          $text-color      
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $ugly-green
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color $ugly-green
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          $ugly-green
+
+# start dmenu
+#bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec rofi -show run -lines 10 -eh 2 -width 800 -padding 800 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "System San Francisco Display 14"
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
 
 # bar
 bar {
