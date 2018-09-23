@@ -30,10 +30,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+M move right
+#bindsym $mod+Shift+j move left
+#bindsym $mod+Shift+k move down
+#bindsym $mod+Shift+l move up
+#bindsym $mod+Shift+M move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -183,6 +183,11 @@ bindsym $mod+l exec i3lock --color 475263
 
 # startup
 exec_always --no-startup-id feh --bg-scale /usr/share/wallpapers/serverhamsters/pier.jpg
+
+exec "setxkbmap -layout be"
+## Uncomment the lines underneath if you need to swich keyboards
+# exec "setxkbmap -layout us,be"
+# exec "setxkbmap -option 'grp:alt_shift_toggle'"
 
 ## GENERATE the following line with arandr for your system.
 #exec_always --no-startup-id xrandr --output HDMI-0 --off --output DVI-I-1 --off --output DVI-I-0 --off --output DVI-I-3 --mode 1920x1080 --pos 0x0 --rotate normal --output DVI-I-2 --mode 1920x1080 --pos 1920x0 --rotate normal
