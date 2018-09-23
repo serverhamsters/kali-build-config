@@ -7,7 +7,7 @@ kali-desktop-live
 # You can customize the set of Kali applications to install
 # (-full is the default, -all is absolutely everything, the rest
 # corresponds to various subsets)
-kali-linux-full
+# kali-linux-full
 # kali-linux-all
 # kali-linux-sdr
 # kali-linux-gpu
@@ -20,4 +20,29 @@ kali-linux-full
 # kali-linux-rfid
 
 # Graphical desktop
-kali-desktop-lxde
+#kali-desktop-common
+xorg
+i3
+# Change the wallpaper
+feh
+# required to change the brightness
+xbacklight
+dmenu
+conky
+i3status
+# necessary for volume controls in i3
+playerctl
+# required toconfigure multi-monitors in i3
+arandr
+# a better dmenu
+rofi
+# fading effect
+compton
+
+# Custom packages
+open-vm-tools
+vim
+#nmap
+#metasploit-framework
+#john
+
