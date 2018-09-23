@@ -33,6 +33,10 @@ i3
 # rofi - a better dmenu
 # compton - fade effects
 # i3lock - locking screen
+# lxappearance - change font/icons
+# clipit - clipboard manager
+# gtkmm3 - required for clipboard as guest VM
+# i3blocks - enhance the status bar
 feh
 xbacklight
 dmenu
@@ -43,6 +47,12 @@ arandr
 rofi
 compton
 i3lock
+lxappearance
+clipit
+i3blocks
+
+# Theme
+arc-theme
 
 # VM guest additions
 open-vm-tools
@@ -55,8 +65,11 @@ openvpn
 vim
 ipcalc
 
+firefox-esr
+thunar
 postgresql
 #nmap
 #metasploit-framework
 #john
+#chromium
 
